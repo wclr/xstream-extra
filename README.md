@@ -2,6 +2,10 @@
 
 > Embedded xstream extra operators.
 
+```bash
+yarn add xstream-extra
+```
+
 ```ts
 import 'xstream-extra'
 

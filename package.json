@@ -6,7 +6,8 @@
   "author": "Whitecolor",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publishOnly": "build"
   },
   "devDependencies": {
     "typescript": "^2.6.1",
