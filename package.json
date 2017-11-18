@@ -1,0 +1,15 @@
+{
+  "name": "xstream-extra",
+  "version": "1.0.0-rc1",
+  "description": "Embedded xstream extra operators",
+  "main": "index.js",
+  "author": "Whitecolor",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "xstream": "^11.0.0"
+  }
+}
