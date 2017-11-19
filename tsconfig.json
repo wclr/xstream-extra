@@ -21,7 +21,9 @@
     "indentSize": 2,
     "tabSize": 2
   },  
-  
+  "include": [
+    "src/*" 
+  ],
   "exclude": [
     "**/.yalc/*",
     "**/node_modules/*"

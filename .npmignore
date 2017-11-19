@@ -1,5 +1,4 @@
-*.ts
-!*.d.ts
+/src
 yarn.lock
 tsconfig.json
 .vscode
