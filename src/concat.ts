@@ -3,7 +3,7 @@ import concat from 'xstream/extra/concat';
 
 declare module 'xstream' {
   interface Stream<T> {
-    concat(...streams: Array<Stream<T>>): Stream<T>
+    concat<C = T>(...streams: Array<Stream<C>>): Stream<T | C>
   }
 };
 
