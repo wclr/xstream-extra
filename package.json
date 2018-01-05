@@ -1,6 +1,6 @@
 {
   "name": "xstream-extra",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc4",
   "description": "Embedded xstream extra operators",
   "main": "index.js",
   "author": "Whitecolor",

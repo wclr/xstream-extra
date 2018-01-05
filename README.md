@@ -10,7 +10,9 @@ yarn add xstream-extra
 import 'xstream-extra'
 
 ...
-stream$.sampleCombine(sample$)
+stream$
+  .sampleCombine(sample$)
+  .delay(1000)
 
 ```
 
@@ -18,9 +20,12 @@ Instead of:
 
 ```ts
 import sampleCombine from 'xstream/extra/sampleCombine'
+import delay from 'xstream/extra/delay'
 
 ...
 
-stream$.compose(sampleCombine(sample$))
+stream$
+  .compose(sampleCombine(sample$))
+  .compose(delay(1000))
 
 ```
