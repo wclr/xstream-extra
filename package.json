@@ -1,15 +1,20 @@
 {
   "name": "xstream-extra",
-  "version": "1.0.0-rc4",
+  "version": "1.0.0-rc5",
   "description": "Embedded xstream extra operators",
   "main": "index.js",
   "author": "Whitecolor",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "publishOnly": "build"
+    "publishOnly": "build",
+    "clean": "ts-clean-built --old --dir src --out ."
+  },
+  "peerDependencies": {
+    "xstream": "*"
   },
   "devDependencies": {
+    "ts-clean-built": "^1.2.0",
     "typescript": "^2.6.1",
     "xstream": "^11.0.0"
   }
