@@ -10,3 +10,8 @@ import './sampleCombine'
 import './pairwise'
 import './split'
 import './throttle'
+
+import xs from 'xstream'
+
+export * from 'xstream'
+export default xs

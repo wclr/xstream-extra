@@ -1,21 +1,30 @@
 {
   "name": "xstream-extra",
-  "version": "1.0.0-rc5",
+  "version": "1.0.0-rc6",
   "description": "Embedded xstream extra operators",
   "main": "index.js",
   "author": "Whitecolor",
   "license": "MIT",
+  "files": [
+    "*.js",
+    "*.js.map",
+    "*.d.ts"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
   "scripts": {
     "build": "tsc",
-    "publishOnly": "build",
-    "clean": "ts-clean-built --old --dir src --out ."
+    "clean": "ts-clean-built --old --dir src --out .",
+    "publishOnly": "yarn build && yarn clean"    
   },
-  "peerDependencies": {
-    "xstream": "*"
+  "dependencies": {
+    "xstream": "11.x.x"
   },
   "devDependencies": {
+    "prettier": "^2.1.2",
     "ts-clean-built": "^1.2.0",
-    "typescript": "^2.6.1",
-    "xstream": "^11.0.0"
+    "typescript": "^4.0.1"
   }
 }
