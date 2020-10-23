@@ -7,7 +7,8 @@ yarn add xstream-extra
 ```
 
 ```ts
-import 'xstream-extra'
+import 'xstream-extra' // or import xs from xstrem
+
 
 ...
 stream$

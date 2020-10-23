@@ -23,6 +23,7 @@
     "xstream": "11.x.x"
   },
   "devDependencies": {
+    "xstream-extra": "link:.",
     "prettier": "^2.1.2",
     "ts-clean-built": "^1.2.0",
     "typescript": "^4.0.1"
